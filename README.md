@@ -9,8 +9,6 @@ A professional, interactive portfolio experience inspired by macOS—built to sh
 
 ## Website Preview
 
-> Placeholder: replace `/public/website-preview-placeholder.svg` with your final website screenshot when ready.
-
 ![Website Preview Placeholder](./public/website-preview-placeholder.svg)
 
 ## Highlights
