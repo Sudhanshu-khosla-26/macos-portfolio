@@ -9,7 +9,7 @@ A professional, interactive portfolio experience inspired by macOS—built to sh
 
 ## Website Preview
 
-![Website Preview Placeholder](./public/website-preview-placeholder.svg)
+![Website Preview Placeholder](./public/website-preview-placeholder.jpg)
 
 ## Highlights
 
