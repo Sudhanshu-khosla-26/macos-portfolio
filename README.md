@@ -1,88 +1,86 @@
-# 🖥️ macOS Portfolio OS
+# macOS Portfolio
 
-> An interactive macOS-inspired portfolio that runs like a real operating system in your browser.
+A professional, interactive portfolio experience inspired by macOS—built to showcase projects, skills, and personal branding in a desktop-like interface.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://www.sudhanshukhosla.in/)
-[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5+-blue.svg)](https://www.typescriptlang.org/)
+[![Live Website](https://img.shields.io/badge/Live-Website-success)](https://www.sudhanshukhosla.in/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
-![Screenshot](/public/Screenshot.png)
+## Website Preview
 
-## 🚀 Features
+> Placeholder: replace `/public/website-preview-placeholder.svg` with your final website screenshot when ready.
 
-- **🪟 Full Window Management** - Drag, resize, minimize, and maximize windows
-- **🎨 macOS UI** - Menu bar, Dock with magnification, Spotlight search, Launchpad
-- **📱 Fully Responsive** - Adapts from desktop OS to mobile fullscreen apps
-- **🌓 Theme Support** - Light/dark mode with glassmorphism effects
-- **⚡ Smooth Animations** - Powered by Framer Motion
+![Website Preview Placeholder](./public/website-preview-placeholder.svg)
 
-## 🛠️ Built With
+## Highlights
 
-- **React** + **TypeScript** - Component architecture
-- **Tailwind CSS** - Styling
-- **Framer Motion** - Animations
-- **Vite** - Build tool
+- macOS-style desktop with Menu Bar, Dock, Spotlight, and Launchpad
+- Multi-window interactions (open, focus, minimize, maximize, close)
+- Responsive behavior for desktop, tablet, and mobile screens
+- Built-in portfolio apps (About, Projects, Skills, Experience, Contact, Resume)
+- Additional interactive apps (Terminal, Gallery, Camera, Spotify, YouTube, Journal)
+- Light and dark appearance support with smooth UI transitions
 
-## 📦 Quick Start
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Radix UI components
+
+## Getting Started
+
+### 1) Clone the repository
 
 ```bash
 git clone https://github.com/Sudhanshu-khosla-26/macos-portfolio.git
 cd macos-portfolio
+```
+
+### 2) Install dependencies
+
+```bash
 npm install
+```
+
+### 3) Run the project locally
+
+```bash
 npm run dev
 ```
 
-## 📱 Apps Included
+## Available Scripts
 
-About Me • Projects • Skills • Experience • Resume • Gallery • Terminal • Camera • Spotify • YouTube
+- `npm run dev` — start local development server
+- `npm run build` — create production build
+- `npm run lint` — run ESLint checks
+- `npm run preview` — preview production build locally
 
-## 🏗️ Architecture
+## Project Structure
 
-```
+```text
 src/
 ├── components/
-│   ├── apps/          # Individual app components
-│   ├── Dock.tsx       # Bottom dock
-│   ├── Window.tsx     # Window wrapper
-│   ├── MenuBar.tsx    # Top menu
-│   └── Desktop.tsx    # Main desktop
-├── hooks/
-│   ├── useWindowManager.ts
-│   ├── useTheme.ts
-│   └── useSpotlight.ts
-└── App.tsx
+│   ├── apps/        # Portfolio app windows
+│   ├── Dock.tsx
+│   ├── Desktop.tsx
+│   ├── MenuBar.tsx
+│   └── Window.tsx
+├── hooks/           # UI and system behavior hooks
+├── types/           # Shared TypeScript types
+└── App.tsx          # Root app composition
 ```
 
-## 💡 How It Works
-
-Each app runs in a managed window with:
-
-- Position & size state
-- Z-index stacking
-- Minimize/maximize logic
-- Mobile auto-fullscreen
-
-The `useWindowManager` hook controls all window operations globally.
-
-## 🎯 Roadmap
-
-- [ ] File system simulation
-- [ ] Terminal commands
-- [ ] Drag & drop files
-- [ ] State persistence
-
-## 👨‍💻 Author
+## Author
 
 **Sudhanshu Khosla**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Sudhanshu-khosla-26)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/sudhanshu-khosla-a05b4a298)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:work.sudhanshukhosla@gmail.com)
+- GitHub: https://github.com/Sudhanshu-khosla-26
+- LinkedIn: https://www.linkedin.com/in/sudhanshu-khosla-a05b4a298/
+- Email: work.sudhanshukhosla@gmail.com
 
-## 📄 License
+## License
 
-MIT © Sudhanshu Khosla
-
----
-
-⭐ **Star this repo** if you found it interesting!
+MIT License
